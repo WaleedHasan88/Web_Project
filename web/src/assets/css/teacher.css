@@ -1,0 +1,348 @@
+/* Teacher Dashboard Styles */
+.dashboard-card {
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .dashboard-card {
+        margin-bottom: 1rem;
+    }
+
+    .dashboard-card:hover {
+        transform: none;
+    }
+}
+
+/* Course Details Styles */
+.course-details {
+    transition: all 0.3s ease;
+}
+
+.course-details.hidden {
+    display: none;
+}
+
+/* Main Content Area */
+.main-content {
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    transition: margin-left 0.3s ease;
+}
+
+@media (max-width: 991px) {
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+/* Card Styles */
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 1rem;
+}
+
+.card-title {
+    margin-bottom: 0;
+    color: #212529;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    .card-header {
+        padding: 0.75rem;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+}
+
+/* Alert Styles */
+.alert {
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+/* Table Styles */
+.table-responsive {
+    margin-bottom: 0;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .table-responsive {
+        margin-bottom: 1rem;
+    }
+
+    .table th,
+    .table td {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Status Colors */
+.bg-warning {
+    background-color: #ffc107 !important;
+    color: #000 !important;
+}
+
+.bg-success {
+    background-color: #198754 !important;
+    color: #fff !important;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+    color: #fff !important;
+}
+
+/* Grade Styles */
+.grade { 
+    font-weight: bold; 
+}
+
+.grade-A, .grade-Aplus { 
+    color: #28a745 !important; 
+}
+
+.grade-Aminus { 
+    color: #218838 !important; 
+}
+
+.grade-B, .grade-Bplus { 
+    color: #17a2b8 !important; 
+}
+
+.grade-Bminus { 
+    color: #138496 !important; 
+}
+
+.grade-C, .grade-Cplus { 
+    color: #ffc107 !important; 
+}
+
+.grade-Cminus { 
+    color: #e0a800 !important; 
+}
+
+.grade-D, .grade-Dplus { 
+    color: #fd7e14 !important; 
+}
+
+.grade-Dminus { 
+    color: #e8590c !important; 
+}
+
+.grade-F { 
+    color: #dc3545 !important; 
+}
+
+/* Lecture Styles */
+.lecture-card {
+    transition: all 0.2s ease;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.lecture-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Student Management Styles */
+.student-list {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.student-card {
+    transition: all 0.2s ease;
+    border: 1px solid rgba(0,0,0,0.125);
+    margin-bottom: 1rem;
+}
+
+.student-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.student-info {
+    padding: 1rem;
+}
+
+.student-actions {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-top: 1px solid rgba(0,0,0,0.125);
+}
+
+/* Schedule Styles */
+.schedule-card {
+    height: 100%;
+}
+
+.schedule-time {
+    font-weight: 500;
+    color: #0d6efd;
+}
+
+.schedule-room {
+    color: #6c757d;
+}
+
+/* Schedule Responsive */
+@media (max-width: 768px) {
+    .schedule-card {
+        margin-bottom: 1rem;
+    }
+
+    .schedule-time {
+        font-size: 0.9rem;
+    }
+
+    .schedule-room {
+        font-size: 0.8rem;
+    }
+}
+
+/* Settings Styles */
+.settings-form .form-label {
+    font-weight: 500;
+}
+
+.settings-form .form-control:read-only {
+    background-color: #f8f9fa;
+}
+
+/* Settings Form Responsive */
+@media (max-width: 576px) {
+    .settings-form .form-label {
+        font-size: 0.9rem;
+    }
+
+    .settings-form .form-control {
+        font-size: 0.9rem;
+    }
+}
+
+/* Action Buttons */
+.action-buttons .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Action Buttons Responsive */
+@media (max-width: 576px) {
+    .action-buttons .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+}
+
+/* Course Selection Styles */
+.course-select {
+    background: linear-gradient(45deg, #4e73df, #224abe);
+    color: white;
+    border: none;
+}
+
+.course-select .form-select {
+    border: none;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+.course-select .form-select option {
+    background-color: white;
+    color: #333;
+}
+
+/* Upload Area Styles */
+.upload-area {
+    border: 2px dashed #dee2e6;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    background: #f8f9fa;
+    transition: all 0.2s ease;
+}
+
+.upload-area:hover {
+    border-color: #0d6efd;
+    background: #f1f3f5;
+}
+
+.file-icon {
+    font-size: 2rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+/* Upload Area Responsive */
+@media (max-width: 768px) {
+    .upload-area {
+        padding: 1rem;
+    }
+
+    .file-icon {
+        font-size: 1.5rem;
+    }
+}
+
+/* Student Management Responsive */
+@media (max-width: 768px) {
+    .student-list {
+        max-height: 400px;
+    }
+
+    .student-card {
+        margin-bottom: 0.75rem;
+    }
+
+    .student-info {
+        padding: 0.75rem;
+    }
+
+    .student-actions {
+        padding: 0.75rem;
+    }
+}
+
+/* Table Styles */
+.table th {
+    font-weight: 600;
+    background-color: #f8f9fa;
+}
+
+.action-buttons .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+} 

@@ -1,0 +1,29 @@
+[14-May-2025 21:46:50 Europe/Berlin] Successful login - User: T1, Role: teacher
+[14-May-2025 22:05:34 Europe/Berlin] Successful login - User: T1, Role: teacher
+[14-May-2025 22:26:21 Europe/Berlin] Successful login - User: S1, Role: student
+[14-May-2025 22:26:41 Europe/Berlin] Successful login - User: T1, Role: teacher
+[14-May-2025 22:28:57 Europe/Berlin] Successful login - User: S1, Role: student
+[14-May-2025 22:46:03 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\web\src\public/../includes/db.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\web\src\public\process_registration.php on line 3
+[14-May-2025 22:46:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\web\src\public/../includes/db.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\web\src\public\process_registration.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\web\src\public\process_registration.php on line 3
+[14-May-2025 22:46:44 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\web\src\public\process_registration.php on line 135
+[14-May-2025 22:46:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\web\src\public\process_registration.php:95
+Stack trace:
+#0 C:\xampp\htdocs\web\src\public\process_registration.php(136): RegistrationProcessor->process(Array, Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\web\src\public\process_registration.php on line 95
+[14-May-2025 22:47:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #14 cannot be passed by reference in C:\xampp\htdocs\web\src\public\process_registration.php:115
+Stack trace:
+#0 C:\xampp\htdocs\web\src\public\process_registration.php(137): RegistrationProcessor->process(Array, Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\web\src\public\process_registration.php on line 115
+[14-May-2025 22:48:49 Europe/Berlin] Successful login - User: admin, Role: admin
+[14-May-2025 22:50:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\web\src\admin\grades.php on line 258
+[14-May-2025 22:50:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\web\src\admin\grades.php on line 258
+[14-May-2025 22:50:31 Europe/Berlin] Successful login - User: S1, Role: student
+[14-May-2025 22:54:03 Europe/Berlin] Successful login - User: admin, Role: admin
+[14-May-2025 22:54:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\web\src\admin\grades.php on line 258
+[14-May-2025 22:54:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\web\src\admin\grades.php on line 258
+[14-May-2025 23:40:31 Europe/Berlin] Successful login - User: admin, Role: admin
