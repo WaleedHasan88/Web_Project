@@ -1,7 +1,23 @@
-# Web_Project
-PHP University Portal  A PHP-based web application for educational institutions with dedicated dashboards for administrators, teachers, and students. Features include user registration, admissions, campus info, research sections, and general pages (About, Contact, Terms, Privacy). Includes epu_portal.sql for database setup and data storage.
 
-Project Structure
+
+# PHP University Portal
+
+A PHP-based web application for educational institutions with dedicated dashboards for **administrators**, **teachers**, and **students**.
+
+### ✨ Features
+
+* User registration and login system
+* Admissions and campus information pages
+* Research section
+* General info pages: About, Contact, Terms, Privacy
+* Database setup via `epu_portal.sql`
+
+---
+
+### 📁 Project Structure
+
+```
+.
 ├── epu_portal.sql                # SQL file for database schema and initial data
 └── src/
     ├── admin/                    # Admin dashboard and functionality
@@ -23,3 +39,6 @@ Project Structure
     ├── student/                  # Student dashboard and features
     ├── teacher/                  # Teacher dashboard and features
     └── uploads/                  # Uploaded files (e.g., profile pictures, documents)
+```
+
+
